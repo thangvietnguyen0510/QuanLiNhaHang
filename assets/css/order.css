@@ -1,0 +1,230 @@
+.header{
+    height: 60px;
+    background-image: linear-gradient(0,#e97933, #f76b2f);
+    position: relative;
+}
+
+.header__menu{
+
+}
+
+.header__menu-list{
+    padding: 0px;
+    margin-top: 0px;
+    
+    display: flex;
+}
+
+.header__menu-list--item{
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.header__menu-list--item--icon{
+    text-decoration: none;
+}
+/* màu padding phần menu */
+.header__color2{
+    background-color: rgb(252, 61, 61);
+}
+.header__color3{
+    background-color: rgb(255, 110, 231);
+}
+.header__color4{
+    background-color: rgb(74, 137, 219);
+}
+.header__color5{
+    background-color: rgb(25, 209, 255);
+}
+.header__color6{
+    background-color: rgb(25, 255, 163);
+}
+.header__color7{
+    background-color: rgb(57, 255, 43);
+}
+.header__color8{
+    background-color: rgb(0, 255, 225);
+}
+/* ------------ */
+.header__menu-list--item--box{
+    padding: 17.2px 10px;
+    color: white;
+}
+
+
+.header__menu-list--item--name{
+    color: white;
+    
+}
+.header__menu-list--item--box1{
+    color: white;
+    padding: 17.2px 10px;
+}
+/* Phần order left */
+.category{
+    float: left;
+    width: 25%;
+    background-color: #ffffff;
+    height: 475px;
+    position: relative;
+}
+.category__name{
+ 
+    margin-left: 0;
+}
+.category-order{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+
+}
+.category-order::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 55px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(74, 74, 74);;
+}
+.category-order--up{
+    list-style: none;
+    display: block;
+    margin: 0px;
+}
+.category-order--left{
+    text-decoration: none; 
+    padding: 20px 40px; 
+    color: black;
+}
+.category-order--left:hover{
+    background-color: rgb(178, 180, 181);
+}
+.category-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.category-item1,.category-item{
+    display: block;
+    font-size: 14px;
+
+}
+.category-item1{
+ 
+}
+/*  */
+.product{
+    float: left;
+    width: 60%;
+    background-color: #ffffff;
+    height: 475px;
+    position: relative;
+}
+.produt-khung-item__img{
+    height: 180px;
+    width: 150px;
+    margin-top: 7px;
+    margin-right: 15px;
+    display: block;
+}
+.product-khung-ov{
+    list-style: none;
+    padding:0px;
+    margin-top: 10px;
+    
+    display: flex;
+}
+.product-khung-ov--area{
+    padding-left: 15px;
+    background-color: #f5f5f5;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 0.5px 1.5px 0 #212121;
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+.product-khung-ov--area:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5px 15px 0 #1d1c1c;
+}
+
+.produt-khung-item__price,
+.produt-khung-item__name{
+    font-size: 13px;
+    
+}
+.produt-khung-item__name{
+    flex-wrap: wrap;
+}
+
+.produt-khung-item{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+
+}
+/* order right */
+.list{
+    float: left;
+    width: 15%;
+    background-color: #ffffff;
+    height: 475px;
+    position: relative;
+}
+.list-list{
+    padding: 0;
+}
+
+.list-list--item{
+    list-style: none;
+    margin-top: -15.7px;
+
+}
+.list-list--item__clicked{
+    color: red;
+}
+.list-list--item__name{
+    text-decoration: none;
+    color: black;
+    
+}
+.list-list--item__name-lst{
+    color: balck;
+    text-align: center;
+}
+/* footer */
+.footer{
+    float: left;
+    width: 25%;
+    background-color: #ffffff;
+    height: 58px;
+    position: relative;
+}
+.footer-list{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: -5px;
+}
+.footer-list-pay{
+    display: flex;
+    margin-top: 12px;
+}
+.footer-list-pay__name{
+    text-decoration: none;
+    padding: 10px 28px;
+}
+.footer-list-pay__name:hover{
+    background-color: #f68c4a;
+}
+.footer-color{
+    background-color: orange;
+}
+.footer-list-pay__name-lt{
+    font-size: 13px;
+    color: #000000;
+}
